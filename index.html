@@ -16,18 +16,20 @@
 
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
 
     <link rel="stylesheet" href="./assets/fonts/NeueMachina-Regular.otf">
 
 </head>
 
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="./assets/img/perfil.png" alt="Foto de Daiane Porcena" class="photo">
 
-            <h1 class="title">Olá, 
-                <br>eu sou daiane Porcena
+            <h1 class="title">Olá,
+                <br>eu sou Daiane Porcena
             </h1>
 
             <div class="information">
@@ -37,7 +39,47 @@
                 <p class="email">daiporcenna@gmail.com</p>
             </div>
         </header>
-    </div>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>
+                    <li>Italiano</li>
+                    <li>Espanhol</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+               Portfólio
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title">Criando um App de lembrete</span>
+                        <a href="www.google.com">www.google.com</a>
+                    </li>
+                    <li>
+                        <span class="title">Criando um App de lembrete</span>
+                        <a href="www.google.com">www.google.com</a>
+                    </li>
+                    <li>
+                        <span class="title">Criando um App de lembrete</span>
+                        <a href="www.google.com">www.google.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/acordeon.js"></script>
 
 </body>
 
