@@ -12,6 +12,14 @@ body {
     color: #fff;
 }
 
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 .main{
     margin: .5rem;
     padding: 1rem;

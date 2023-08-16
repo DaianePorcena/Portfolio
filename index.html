@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/acordeon.css">
     <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
 
     <link rel="stylesheet" href="./assets/fonts/NeueMachina-Regular.otf">
 
@@ -35,14 +38,57 @@
             <div class="information">
                 <p class="job">Junior Developer</p>
                 <p class="location">São Paulo - BR</p>
-                <p class="contact">(77) 9 8845-3109</p>
-                <p class="email">daiporcenna@gmail.com</p>
+                <p class="contact">
+                    <a href="tel:(77) 9 8845-3109">(77) 9 8845-3109</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:daiporcenna@gmail.com">daiporcenna@gmail.com</a>
+                </p>
             </div>
         </header>
 
         <section class="acordeon open">
             <button class="trigger" type="button">
-                Idiomas
+               <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades profissionais:</h3>
+                        <ul>
+                            <li>
+                                <img src="./assets/img/languages/html.svg" alt="Html" title="Html">
+                            </li>
+                            <li>
+                                <img src="./assets/img/languages/css.svg" alt="css" title="css">
+                            </li>
+                            <li>
+                                <img src="./assets/img/languages/js.svg" alt="Javascript" title="Javascript">
+                            </li>
+                            <li>
+                                <img src="./assets/img/languages/python.svg" alt="Python" title="Python">
+                            </li>
+                        </ul>
+                    </section>
+    
+                    <section class="personal">
+                        <h3>Habilidades pessoais:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de comunicação</li>
+                            <li>Orgnização</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+               <h2>Idiomas</h2>
             </button>
 
             <div class="content">
@@ -55,24 +101,50 @@
             </div>
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
-               Portfólio
+               <h2>Portfólio</h2>
             </button>
 
             <div class="content">
                 <ul class="portfolio">
                     <li>
-                        <span class="title">Criando um App de lembrete</span>
-                        <a href="www.google.com">www.google.com</a>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com" target="_blank">www.google.com</a>
                     </li>
                     <li>
-                        <span class="title">Criando um App de lembrete</span>
-                        <a href="www.google.com">www.google.com</a>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com" target="_blank">www.google.com</a>
                     </li>
                     <li>
-                        <span class="title">Criando um App de lembrete</span>
-                        <a href="www.google.com">www.google.com</a>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com" target="_blank">www.google.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+               <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos reprehenderit dolorum, dolore adipisci aliquam culpa voluptatibus repellat magnam numquam molestias, expedita recusandae tempore totam perspiciatis in maxime velit fuga!</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos reprehenderit dolorum, dolore adipisci aliquam culpa voluptatibus repellat magnam numquam molestias, expedita recusandae tempore totam perspiciatis in maxime velit fuga!</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos reprehenderit dolorum, dolore adipisci aliquam culpa voluptatibus repellat magnam numquam molestias, expedita recusandae tempore totam perspiciatis in maxime velit fuga!</p>
                     </li>
                 </ul>
             </div>

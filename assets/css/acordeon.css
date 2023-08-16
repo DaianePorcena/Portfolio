@@ -27,6 +27,12 @@
     border: none;
 }
 
+.acordeon .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
 .acordeon .trigger:hover{
     cursor: pointer;
 }
@@ -48,15 +54,15 @@
 }
 
 .acordeon .content{
-   overflow: hidden;
-   max-height: 0;
-   opacity: 0;
-   transition: max-height 0.5s ease-in-out, opacity .5s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.6s ease-in-out, opacity 0.8s ease-in-out;
+    padding: 0 1rem 0 2rem;
 }
 
 .acordeon.open .content{
-    display: block;
+    max-height: 100vh; /* Altura máxima desejada */
     opacity: 1;
-    max-height: 250px;
-    padding: 0 1rem 1rem;
+    padding: 0 1rem 1rem 2rem;
 }
