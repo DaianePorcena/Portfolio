@@ -62,7 +62,7 @@
 }
 
 .acordeon.open .content{
-    max-height: 100vh; /* Altura máxima desejada */
+    max-height: 1000px; /* Altura máxima desejada */
     opacity: 1;
     padding: 0 1rem 1rem 2rem;
 }
