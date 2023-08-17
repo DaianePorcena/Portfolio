@@ -46,13 +46,9 @@
     ],
     "experiencias": [
         {
-            "nome": "Education Tech Lead ",
-            "descricao": "",
-            "instituicao": "Digital Innovation One (DIO)",
-            "periodo": {
-                "inicio": "03/2021",
-                "fim": "Atualmente"
-            }
+            "name": "Front-end Developer - GIPAR",
+            "period": "Jun 2022 - Current",
+            "description": "Responsável pelo desenvolvimento de páginas web em uma plataforma de carros autônomos."
         }
     ]
 }
