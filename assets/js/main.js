@@ -1,7 +1,7 @@
-function updateProfileInfo(profileData){
+function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo');
     photo.src = profileData.photo;
-    photo.alt =profileData.name
+    photo.alt = profileData.name
 
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
@@ -36,10 +36,23 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(languages => `<li>${languages}</li>`).join('')
 }
 
-(async() => {
+function updatePortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio');
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        return `
+        <li>
+            <h3 ${project.git ? 'class="github"' : ''}>${project.nome}</h3>
+            <a href="${project.url}" target="_blank">${project.url}</a>
+        </li>
+        `
+    })
+}
+
+(async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updatePortfolio(profileData)
 })()

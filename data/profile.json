@@ -6,53 +6,53 @@
     "phone": "(77) 98845-3109",
     "email": "daiporcenna@gmail.com",
     "skills": {
-    "hardSkills": [
-    {
-    "nome": "HTML",
-    "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/html.png"
-    },
-    {
-    "nome": "CSS",
-    "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/css.png"
-    },
-    {
-    "nome": "JavaScript",
-    "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/js.png"
-    }
-    ],
-    "softSkills": [
-    "Liderança",
-    "Empatia",
-    "Trabalho em equipe",
-    "Flexibilidade",
-    "Organização"
-    ]
+        "hardSkills": [
+            {
+                "nome": "HTML",
+                "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/html.png"
+            },
+            {
+                "nome": "CSS",
+                "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/css.png"
+            },
+            {
+                "nome": "JavaScript",
+                "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/js.png"
+            }
+        ],
+        "softSkills": [
+            "Liderança",
+            "Empatia",
+            "Trabalho em equipe",
+            "Flexibilidade",
+            "Organização"
+        ]
     },
     "languages": [
         "Português BR",
         "Inglês {Intermediário}"
     ],
     "portfolio": [
-    {
-    "nome": "Curso Ministrado na DIO para a criação de uma Pokedex",
-    "gitHub": "https://github.com/DaianePorcena/Pokedex",
-    "git": true
-    },
-    {
-    "nome": "Curso Ministrado na DIO para a criação de uma página de Portfolio",
-    "gitHub": "https://github.com/DaianePorcena/Portfolio_dio",
-    "git": true
-    }
+        {
+            "nome": "Curso Ministrado na DIO para a criação de uma Pokedex",
+            "url": "https://github.com/DaianePorcena/Pokedex",
+            "git": true
+        },
+        {
+            "nome": "Curso Ministrado na DIO para a criação de uma página de Portfolio",
+            "url": "https://github.com/DaianePorcena/Portfolio_dio",
+            "git": true
+        }
     ],
     "experiencias": [
-    {
-    "nome": "Education Tech Lead ",
-    "descricao": "",
-    "instituicao": "Digital Innovation One (DIO)",
-    "periodo": {
-    "inicio": "03/2021",
-    "fim": "Atualmente"
-    }
-    }
+        {
+            "nome": "Education Tech Lead ",
+            "descricao": "",
+            "instituicao": "Digital Innovation One (DIO)",
+            "periodo": {
+                "inicio": "03/2021",
+                "fim": "Atualmente"
+            }
+        }
     ]
-    }
+}
