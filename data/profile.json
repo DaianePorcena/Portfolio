@@ -8,16 +8,16 @@
     "skills": {
     "hardSkills": [
     {
-    "nome": "Android",
-    "logo": "TODO"
+    "nome": "HTML",
+    "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/html.png"
     },
     {
-    "nome": "Java",
-    "logo": "TODO"
+    "nome": "CSS",
+    "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/css.png"
     },
     {
-    "nome": "Kotlin",
-    "logo": "TODO"
+    "nome": "JavaScript",
+    "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/js.png"
     }
     ],
     "softSkills": [
