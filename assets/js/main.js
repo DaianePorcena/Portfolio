@@ -51,6 +51,13 @@ function updateHardSkills(profileData) {
     .join('')
 }
 
+function updateDifferences(profileData) {
+  const differences = document.getElementById('profile.skills.differences')
+  differences.innerHTML = profileData.skills.differences
+    .map(skill => `<li>${skill}</li>`)
+    .join('')
+}
+
 function updateLanguages(profileData) {
   const languages = document.getElementById('profile.languages')
   languages.innerHTML = profileData.languages
@@ -95,6 +102,7 @@ function updateProfessionalExperience(profileData) {
   updateAbout(profileData)
   updateSoftSkills(profileData)
   updateHardSkills(profileData)
+  updateDifferences(profileData)
   updateLanguages(profileData)
   updatePortfolio(profileData)
   updateProfessionalExperience(profileData)

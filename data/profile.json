@@ -26,6 +26,14 @@
             {
                 "nome": "React",
                 "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/react.png"
+            },
+            {
+                "nome": "Python",
+                "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/python.png"
+            },
+            {
+                "nome": "MySQL",
+                "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/mysql.png"
             }
         ],
         "softSkills": [
@@ -35,7 +43,7 @@
             "Organização"
         ],
         "differences": [
-            "Metodológia Ágil",
+            "Metodologia Ágil",
             "Código limpo"
         ]
     },
@@ -65,7 +73,7 @@
         {
             "name": "Front-end Developer - GIPAR",
             "period": "Fev 2023 - Até o momento",
-            "description": "Voluntária no projeto de desenvolvimetnos de interface web para protótipo de carros autônomos"
+            "description": "Voluntária em projeto de desenvolvimento de interfaces web para protótipos de carros autônomos."
         }
     ]
 }
