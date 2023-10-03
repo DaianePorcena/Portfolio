@@ -22,7 +22,16 @@ function updateProfileInfo(profileData) {
 
   const github = document.getElementById('profile.github')
   github.innerText = profileData.github
-  github.href = `${profileData.github}`
+  github.href = profileData.github
+}
+
+function updateAbout(profileData) {
+  const about = document.getElementById('profile.about')
+  about.innerHTML = `
+        <li>
+            <p>${profileData.about.description}</p>
+        </li>
+    `
 }
 
 function updateSoftSkills(profileData) {

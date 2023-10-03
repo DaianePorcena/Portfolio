@@ -6,6 +6,9 @@
     "phone": "(77) 98845-3109",
     "email": "daiporcenna@gmail.com",
     "github": "https://github.com/DaianePorcena",
+    "about": {
+        "description": "Estudante de Sistemas de Informação buscando uma carreira como desenvolvedora Front-End. Comprometida em aprender e aplicar as melhores práticas do setor para criar experiências web de qualidade."
+    },
     "skills": {
         "hardSkills": [
             {
