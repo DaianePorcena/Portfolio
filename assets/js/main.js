@@ -28,9 +28,9 @@ function updateProfileInfo(profileData) {
 function updateAbout(profileData) {
   const about = document.getElementById('profile.about')
   about.innerHTML = `
-        <li>
-            <p>${profileData.about.description}</p>
-        </li>
+      <li>
+        <p class="about">${profileData.about.description}</p>
+      </li>
     `
 }
 
@@ -92,6 +92,7 @@ function updateProfessionalExperience(profileData) {
 ;(async () => {
   const profileData = await fetchProfileData()
   updateProfileInfo(profileData)
+  updateAbout(profileData)
   updateSoftSkills(profileData)
   updateHardSkills(profileData)
   updateLanguages(profileData)

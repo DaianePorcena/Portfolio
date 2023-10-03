@@ -22,37 +22,50 @@
             {
                 "nome": "JavaScript",
                 "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/js.png"
+            },
+            {
+                "nome": "React",
+                "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/react.png"
             }
         ],
         "softSkills": [
-            "Liderança",
             "Empatia",
             "Trabalho em equipe",
             "Flexibilidade",
             "Organização"
+        ],
+        "differences": [
+            "Metodológia Ágil",
+            "Código limpo"
         ]
     },
     "languages": [
         "Português BR",
-        "Inglês {Intermediário}"
+        "Inglês - Intermediário"
     ],
     "portfolio": [
         {
-            "nome": "Curso Ministrado na DIO para a criação de uma Pokedex",
-            "url": "https://github.com/DaianePorcena/Pokedex",
-            "git": true
+            "nome": "beautySalon",
+            "url": "https://daianeporcena.github.io/beautySalon/"
+            
         },
         {
-            "nome": "Curso Ministrado na DIO para a criação de uma página de Portfolio",
-            "url": "https://github.com/DaianePorcena/Portfolio_dio",
-            "git": true
+            "nome": "Vasta Web",
+            "url": "https://daianeporcena.github.io/Desafio_Vasta/"
+            
+        },
+        {
+            "nome": "Pokedex",
+            "url": "https://daianeporcena.github.io/Pokedex/"
+            
         }
+
     ],
     "professionalExperience": [
         {
             "name": "Front-end Developer - GIPAR",
-            "period": "Jun 2022 - Current",
-            "description": "Responsável pelo desenvolvimento de páginas web em uma plataforma de carros autônomos."
+            "period": "Fev 2023 - Até o momento",
+            "description": "Voluntária no projeto de desenvolvimetnos de interface web para protótipo de carros autônomos"
         }
     ]
 }
