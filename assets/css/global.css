@@ -7,8 +7,9 @@
   font-family: 'Neue Machina';
   src: url(../fonts/NeueMachina-Regular.otf);
 }
+
 body {
-  background-color: #000;
+  background-color: #0e0b16;
   color: #fff;
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */

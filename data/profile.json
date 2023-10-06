@@ -20,6 +20,10 @@
                 "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/css.png"
             },
             {
+                "nome": "Bootstrap",
+                "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/bootstrap.png"
+            },
+            {
                 "nome": "JavaScript",
                 "logo": "https://raw.githubusercontent.com/DaianePorcena/Portfolio_dio/main/data/imgs/js.png"
             },
@@ -73,7 +77,7 @@
         {
             "name": "Front-end Developer - GIPAR",
             "period": "Fev 2023 - Até o momento",
-            "description": "Voluntária em projeto de desenvolvimento de interfaces web para protótipos de carros autônomos."
+            "description": "Voluntária em projeto de desenvolvimento de interfaces web para protótipos de carros autônomos. Também contribuo para a coleta e análise de requisitos."
         }
     ]
 }
